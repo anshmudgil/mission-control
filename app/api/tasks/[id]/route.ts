@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server'
+import { NextResponse, NextRequest } from 'next/server'
 import fs from 'fs'
 import path from 'path'
 
@@ -19,8 +19,11 @@ function appendActivity(entry: object) {
   fs.appendFileSync(ACTIVITY_FILE, line)
 }
 
-export async function PATCH(req: Request, context: { params: { id: string } }) {
-  const { id } = context.params
+export async function PATCH(
+  req: NextRequest,
+  context: { params: Promise<{ id: string }> }
+) {
+  const { id } = await context.params
   const body = await req.json()
   const tasks = readTasks()
   const idx = tasks.findIndex((t: any) => t.id === id)
@@ -44,8 +47,11 @@ export async function PATCH(req: Request, context: { params: { id: string } }) {
   return NextResponse.json(tasks[idx])
 }
 
-export async function DELETE(_req: Request, context: { params: { id: string } }) {
-  const { id } = context.params
+export async function DELETE(
+  _req: NextRequest,
+  context: { params: Promise<{ id: string }> }
+) {
+  const { id } = await context.params
   const tasks = readTasks()
   const filtered = tasks.filter((t: any) => t.id !== id)
   writeTasks(filtered)
