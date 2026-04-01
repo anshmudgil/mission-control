@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a93d912b-431e-42a9-87fd-2292f20095e8",
+    "name": "Academic Deadline Watcher",
+    "agent": "Jarvis (isolated sub-agent)",
+    "description": "Checks ACADEMIC_KB.md for upcoming deadlines. Alerts only on due-today or overdue items. Silent if everything is handled.",
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 0,6,12,18 * * *",
+      "tz": "Australia/Sydney",
+      "humanReadable": "Daily at 12am, 6am, 12pm, 6pm (Sydney)"
+    },
+    "color": "#4A90D9",
+    "icon": "GraduationCap",
+    "enabled": true,
+    "lastRunAt": "2026-03-29T18:00:00+11:00",
+    "lastRunStatus": "ok",
+    "lastRunDurationMs": 14178,
+    "nextRunAt": "2026-03-30T00:00:00+11:00",
+    "createdAt": "2026-03-28T09:00:00+11:00"
+  },
+  {
+    "id": "7fb903fc-0950-42fd-b97b-cd611779e179",
+    "name": "Weekly Memory Review",
+    "agent": "Jarvis (isolated sub-agent)",
+    "description": "Reads all daily logs from the week. Extracts decisions, lessons, patterns. Compresses MEMORY.md. Updates agent KBs. Delivers Friday EOW brief.",
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 18 * * 5",
+      "tz": "Australia/Sydney",
+      "humanReadable": "Every Friday at 6pm (Sydney)"
+    },
+    "color": "#C9A84C",
+    "icon": "Brain",
+    "enabled": true,
+    "lastRunAt": null,
+    "lastRunStatus": null,
+    "lastRunDurationMs": null,
+    "nextRunAt": "2026-04-03T18:00:00+11:00",
+    "createdAt": "2026-03-28T09:00:00+11:00"
+  },
+  {
+    "id": "848f16f3-4487-484b-9f04-b2161e5eaad4",
+    "name": "Monthly Deep Review",
+    "agent": "Jarvis (isolated sub-agent)",
+    "description": "First Monday of each month at 9am. Full system audit: reads 30 days of logs, compresses all KBs, updates MEMORY.md, archives old logs, delivers monthly state-of-system brief.",
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 9 1-7 * 1",
+      "tz": "Australia/Sydney",
+      "humanReadable": "1st Monday of each month at 9am (Sydney)"
+    },
+    "color": "#A855F7",
+    "icon": "CalendarCheck",
+    "enabled": true,
+    "lastRunAt": null,
+    "lastRunStatus": null,
+    "lastRunDurationMs": null,
+    "nextRunAt": "2026-04-06T09:00:00+11:00",
+    "createdAt": "2026-03-28T09:00:00+11:00"
+  }
+]

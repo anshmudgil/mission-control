@@ -1,0 +1,79 @@
+[
+  {
+    "id": "69cad9b09f5ad5aec5f5b25d",
+    "title": "Notion Archieved instruction",
+    "description": "",
+    "assignee": "unassigned",
+    "status": "backlog",
+    "createdAt": "2026-03-30T20:14:40.755Z",
+    "updatedAt": "2026-03-30T20:14:40.755Z",
+    "trelloId": "69cad9b09f5ad5aec5f5b25d",
+    "trelloUrl": "https://trello.com/c/udcyAfTz/7-notion-archieved-instruction"
+  },
+  {
+    "id": "69cad47498509dbe1e165f02",
+    "title": "E2E test coverage for kill switch",
+    "description": "Need to clarify: do we test all variants or happy path only?",
+    "assignee": "unassigned",
+    "status": "backlog",
+    "createdAt": "2026-03-30T19:52:20.856Z",
+    "updatedAt": "2026-03-30T19:52:20.856Z",
+    "trelloId": "69cad47498509dbe1e165f02",
+    "trelloUrl": "https://trello.com/c/Bg2QFQKG/3-e2e-test-coverage-for-kill-switch"
+  },
+  {
+    "id": "69cad47301c2335181c299e0",
+    "title": "Visual editor needs better template handling",
+    "description": "From conversation 2026-03-31: Users confused about template gallery. Need UX review.",
+    "assignee": "unassigned",
+    "status": "backlog",
+    "createdAt": "2026-03-30T20:05:13.113Z",
+    "updatedAt": "2026-03-30T20:05:13.113Z",
+    "trelloId": "69cad47301c2335181c299e0",
+    "trelloUrl": "https://trello.com/c/j9NZcqTC/1-visual-editor-needs-better-template-handling"
+  },
+  {
+    "id": "69cad474254cac93b48df8cc",
+    "title": "Redis nonce store security audit needed",
+    "description": "OAuth flow has potential race condition in nonce validation. Low risk but should be fixed.",
+    "assignee": "unassigned",
+    "status": "backlog",
+    "createdAt": "2026-03-30T20:05:18.588Z",
+    "updatedAt": "2026-03-30T20:05:18.588Z",
+    "trelloId": "69cad474254cac93b48df8cc",
+    "trelloUrl": "https://trello.com/c/CP6e306E/2-redis-nonce-store-security-audit-needed"
+  },
+  {
+    "id": "69cad475eaa9efae32da69ff",
+    "title": "SETUP_GUIDE.md — Customer self-onboarding",
+    "description": "Create markdown guide so customers can onboard without support. Acceptance: (1) covers auth setup (2) covers data connection (3) covers test mode (4) has screenshots",
+    "assignee": "unassigned",
+    "status": "backlog",
+    "createdAt": "2026-03-30T19:52:21.328Z",
+    "updatedAt": "2026-03-30T19:52:21.328Z",
+    "trelloId": "69cad475eaa9efae32da69ff",
+    "trelloUrl": "https://trello.com/c/TZunvUxl/4-setupguidemd-customer-self-onboarding"
+  },
+  {
+    "id": "69cad4751e95b3d92df23541",
+    "title": "Fix Redis nonce race condition",
+    "description": "Security: Add atomic check-and-set for OAuth nonce validation. Acceptance: (1) nonce expires correctly (2) no replay attacks possible (3) tests pass",
+    "assignee": "unassigned",
+    "status": "backlog",
+    "createdAt": "2026-03-30T19:52:21.878Z",
+    "updatedAt": "2026-03-30T19:52:21.878Z",
+    "trelloId": "69cad4751e95b3d92df23541",
+    "trelloUrl": "https://trello.com/c/DUEXNMJI/5-fix-redis-nonce-race-condition"
+  },
+  {
+    "id": "69cad476ebe689e7c772504b",
+    "title": "[PRIORITY] Complete visual editor page   template gallery",
+    "description": "Epic: Editor page is 80% done. Gaps: (1) template gallery UI (2) template preview (3) template search. Files impacted: components/editor/*, pages/editor. Definition of done: all 3 templates render, drag/drop works, save succeeds. OpenClaw dispatch ready.",
+    "assignee": "unassigned",
+    "status": "backlog",
+    "createdAt": "2026-03-30T19:52:22.364Z",
+    "updatedAt": "2026-03-30T19:52:22.364Z",
+    "trelloId": "69cad476ebe689e7c772504b",
+    "trelloUrl": "https://trello.com/c/xM6nGffV/6-priority-complete-visual-editor-page-template-gallery"
+  }
+]

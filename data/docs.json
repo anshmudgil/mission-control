@@ -1,0 +1,123 @@
+[
+  {
+    "id": "doc-001",
+    "title": "Local AI Integration — Architecture Brief",
+    "type": "architecture",
+    "project": "Vermilion Intelligence",
+    "tags": ["ollama", "local-ai", "bots", "architecture"],
+    "filePath": "builds/local-ai-integration/ARCHITECTURE_BRIEF.md",
+    "createdAt": "2026-03-29T06:36:07+11:00",
+    "updatedAt": "2026-03-29T06:36:07+11:00",
+    "description": "7-section architecture brief for integrating qwen3.5:9b (Ollama) across all 4 bots. 3-tier routing, shared ollama_client.py, cost savings ~50%. Covers LinkedIn v7, Solomon, CORTEX, ATLAS."
+  },
+  {
+    "id": "doc-002",
+    "title": "XWise Intel Brief",
+    "type": "intel",
+    "project": "XWise Group",
+    "tags": ["xwise", "client", "business-development", "discovery"],
+    "filePath": "business/XWISE_INTEL_BRIEF.md",
+    "createdAt": "2026-03-28T20:38:59+11:00",
+    "updatedAt": "2026-03-28T20:38:59+11:00",
+    "description": "Intelligence brief on XWise Group. Akash believes in AI, wants 45→25 headcount via automation. Starting point: SalesXwise. Next step: call with Akash + Devin."
+  },
+  {
+    "id": "doc-003",
+    "title": "XWise Saturday Meeting Prep",
+    "type": "meeting-prep",
+    "project": "XWise Group",
+    "tags": ["xwise", "meeting", "client", "preparation"],
+    "filePath": "clients/xwise-group/SATURDAY_MEETING_PREP.md",
+    "createdAt": "2026-03-28T15:29:38+11:00",
+    "updatedAt": "2026-03-28T15:29:38+11:00",
+    "description": "Full prep document for the Saturday 28 March casual XWise meeting. Talking points, discovery questions, seed-planting strategy."
+  },
+  {
+    "id": "doc-004",
+    "title": "Vermilion Intelligence Engine",
+    "type": "strategy",
+    "project": "Vermilion Intelligence",
+    "tags": ["vermilion", "strategy", "vi", "automation", "business-model"],
+    "filePath": "business/VERMILION_INTELLIGENCE_ENGINE.md",
+    "createdAt": "2026-03-28T15:29:36+11:00",
+    "updatedAt": "2026-03-28T15:29:36+11:00",
+    "description": "Core strategy document for VI. Business model, ICP, deployment skeleton, go-to-market. $2M-$50M AU businesses target."
+  },
+  {
+    "id": "doc-005",
+    "title": "Wealth Gap Funnel Engine",
+    "type": "strategy",
+    "project": "Vermilion Intelligence",
+    "tags": ["linkedin", "funnel", "content", "marketing", "wealth-gap"],
+    "filePath": "business/WEALTH_GAP_FUNNEL_ENGINE.md",
+    "createdAt": "2026-03-28T15:29:36+11:00",
+    "updatedAt": "2026-03-28T15:29:36+11:00",
+    "description": "LinkedIn content funnel strategy targeting high-income Australian professionals. Wealth gap narrative, hook frameworks, CTA structure."
+  },
+  {
+    "id": "doc-006",
+    "title": "VI Command Centre",
+    "type": "operations",
+    "project": "Vermilion Intelligence",
+    "tags": ["operations", "vi", "command-centre", "systems"],
+    "filePath": "business/COMMAND_CENTRE.md",
+    "createdAt": "2026-03-28T15:29:35+11:00",
+    "updatedAt": "2026-03-28T15:29:35+11:00",
+    "description": "Operational command centre document for VI. Systems, processes, agent stack overview, daily operating rhythm."
+  },
+  {
+    "id": "doc-007",
+    "title": "Discovery Playbook",
+    "type": "playbook",
+    "project": "Vermilion Intelligence",
+    "tags": ["discovery", "sales", "playbook", "client-calls"],
+    "filePath": "business/DISCOVERY_PLAYBOOK.md",
+    "createdAt": "2026-03-28T15:29:35+11:00",
+    "updatedAt": "2026-03-28T15:29:35+11:00",
+    "description": "Step-by-step discovery call playbook for VI client engagements. Questions, flow, qualification criteria, next-step triggers."
+  },
+  {
+    "id": "doc-008",
+    "title": "Meta Campaign Setup",
+    "type": "marketing",
+    "project": "Vermilion Intelligence",
+    "tags": ["meta", "ads", "campaign", "marketing", "facebook"],
+    "filePath": "business/META_CAMPAIGN_SETUP.md",
+    "createdAt": "2026-03-28T15:29:35+11:00",
+    "updatedAt": "2026-03-28T15:29:35+11:00",
+    "description": "Meta advertising campaign setup and configuration for VI. Ad creative, targeting, budget, funnel mapping."
+  },
+  {
+    "id": "doc-009",
+    "title": "XWise Opportunity Analysis",
+    "type": "analysis",
+    "project": "XWise Group",
+    "tags": ["xwise", "opportunity", "analysis", "revenue"],
+    "filePath": "business/XWISE_OPPORTUNITY.md",
+    "createdAt": "2026-03-28T15:29:37+11:00",
+    "updatedAt": "2026-03-28T15:29:37+11:00",
+    "description": "Opportunity analysis for XWise Group engagement. Revenue potential, scope, risk, recommended approach."
+  },
+  {
+    "id": "doc-010",
+    "title": "VI Competitive Gameplan",
+    "type": "strategy",
+    "project": "Vermilion Intelligence",
+    "tags": ["competitive", "strategy", "vi", "market"],
+    "filePath": "builds/vi-competitive-gameplan.md",
+    "createdAt": "2026-03-28T15:29:36+11:00",
+    "updatedAt": "2026-03-28T15:29:36+11:00",
+    "description": "Competitive positioning and gameplan for Vermilion Intelligence in the AU AI automation market."
+  },
+  {
+    "id": "doc-011",
+    "title": "Pulse Discord Pipeline — Architecture Brief",
+    "type": "architecture",
+    "project": "Discord Pipeline",
+    "tags": ["discord", "pipeline", "scout", "architecture", "content"],
+    "filePath": "builds/pulse/ARCHITECTURE_BRIEF.md",
+    "createdAt": "2026-03-29T08:09:30+11:00",
+    "updatedAt": "2026-03-29T08:09:30+11:00",
+    "description": "Full architecture brief for Pulse — 3-stage Discord bot pipeline (Scout→Researcher→Writer). Nitter RSS, Perplexity research, CORTEX script generation. Single bot, three channel listeners."
+  }
+]
